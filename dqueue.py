@@ -1,0 +1,12 @@
+import collections
+de = collections.deque([1, 2, 3, 3, 4, 2, 4])
+print ("The number 4 first occurs at a position : ")
+print (de.index(4,2,5))
+de.insert(4,3)
+print ("The deque after inserting 3 at 5th position is : ")
+print (de)
+print ("The count of 3 in deque is : ")
+print (de.count(3))
+de.remove(3)
+print ("The deque after deleting first occurrence of 3 is : ")
+print (de)

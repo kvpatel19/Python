@@ -1,0 +1,7 @@
+a=int(input("enter first value"))
+b=int(input("enter second value"))
+c=int(input("enter third value"))
+d=int(input("enter fourth value"))
+e=int(input("enter fifth value"))
+f=(a+b+c+d+e)
+print("sum of 5  digit",f)

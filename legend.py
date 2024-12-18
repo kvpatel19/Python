@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+x=([1,2,3,4,5])
+y=([100,88,56,77,55])
+x1=([2,8,7,9,6])
+y1=([55,80,50,70,5])
+plt.xlabel("players")
+plt.ylabel("scores")
+plt.title("cricket team players scores")
+plt.plot(x,y,color="y",linewidth=5,label="india")
+plt.plot(x,y,color="r",linewidth=3,label="australia")
+plt.legend()
+plt.show()

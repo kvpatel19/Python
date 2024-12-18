@@ -1,0 +1,10 @@
+from collections import deque
+dq=deque([44,55,33])
+dq.append(10)
+print(dq)
+dq.appendleft(100)
+print(dq)
+dq.pop()
+print(dq)
+dq.popleft()
+print(dq)

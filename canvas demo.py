@@ -1,0 +1,11 @@
+from tkinter import*
+scr=Tk()
+scr.geometry("800x600")
+scr.title("tool kit interface demo")
+cv=canvas(scr,bg="orange",height="100")
+cv.pack()
+cv1=canvas(scr,bg="white",height="100")
+cv1.pack()
+cv2.canvas(scr,bg="green",height="100")
+cv2.pack()
+scr.mainloop()
