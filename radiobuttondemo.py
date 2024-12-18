@@ -1,0 +1,10 @@
+import tkinter as tk
+parent=tk.Tk()
+parent.title("RadioButton")
+parent.geometry('350x200')
+r1=tk.Radiobutton(parent,text='first',value=1)
+r2=tk.Radiobutton(parent,text='second',value=2)
+r3=tk.Radiobutton(parent,text='third',value=3)
+r1.grid(column=0,row=0)
+r2.grid(column=1,row=0)
+r3.grid(column=2,row=0)
